@@ -1,0 +1,48 @@
+.color-red {
+  color: #F44336;
+}
+
+.color-orange {
+  color: #FF9800;
+}
+
+.color-yellow {
+  color: #D2BE0E;
+}
+
+.color-green,
+.green-hover:hover {
+  color: #4CAF50;
+}
+
+.color-blue {
+  color: #607d8b;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-amber {
+  color: #FFC107;
+}
+
+.color-cyan {
+  color: #02BAD2;
+}
+
+.color-sand {
+  color: #FDF5E6;
+}
+
+.color-grey {
+  color: #757575;
+}
+
+.color-pink {
+  color: #E91E63;
+}
+
+.color-dark {
+  color: #000000;
+}

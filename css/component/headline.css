@@ -1,0 +1,28 @@
+.headline {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.headline.headline-lg {
+  font-size: 36px;
+}
+
+.headline.headline-md {
+  font-size: 20px;
+}
+
+.headline.headline-sm {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.headline.headline-lg,
+.headline.headline-md {
+  letter-spacing: 5px;
+  font-family: "Playfair Display";
+}
+
+.headline.headline-xs {
+  font-size: 15px;
+  letter-spacing: 4px;
+}

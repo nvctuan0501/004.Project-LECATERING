@@ -1,0 +1,38 @@
+  .group-buttons {
+    font-size: 0;
+  }
+
+  .buttons {
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    transition: all .2s linear;
+    line-height: 1.5;
+  }
+
+  .buttons.buttons-sm {
+    padding: 8px 16px;
+  }
+
+  .buttons.buttons-md {
+    padding: 12px 24px;
+  }
+
+  .buttons.buttons-block {
+    display: block;
+    width: 100%;
+  }
+
+  .buttons.buttons-primary {
+    background-color: #F1F1F1;
+  }
+
+  .buttons.buttons-white {
+    background-color: #fff;
+  }
+
+  .buttons.buttons-primary:hover,
+  .buttons.buttons-white:hover {
+    background-color: #ccc;
+  }

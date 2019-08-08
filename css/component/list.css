@@ -1,0 +1,12 @@
+.list {
+  color: #000;
+}
+
+.list .list-item {
+  display: inline-block;
+}
+
+.list .list-item .item-link {
+  color: #000;
+  text-decoration: none;
+}

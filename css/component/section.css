@@ -1,0 +1,47 @@
+section {
+  padding: 64px 0;
+}
+
+section.section-white {
+  background-color: #ffffff;
+}
+
+.has-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+section .row {
+  display: flex;
+}
+
+section .row .col-img, section .row .col-text {
+  width: 50%;
+  padding: 12px 24px;
+}
+
+section .row .col-img {
+  opacity: 0.7;
+}
+
+section .row .col-img .img {
+  height: 628px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+section .col-text .description {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  section .row .col-img.img-hidden {
+    display: none;
+  }
+
+  section .row .col-text {
+    width: 100%;
+  }
+}

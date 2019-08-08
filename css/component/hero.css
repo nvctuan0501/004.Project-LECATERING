@@ -1,0 +1,40 @@
+.hero {
+  max-width: 1600px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.hero .hero-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.hero .hero-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px 24px;
+  opacity: .6;
+}
+
+@media only screen and (max-width: 1199px) {
+  .hero .hero-img {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero .hero-img {
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero .hero-img {
+    height: 250px;
+    margin-top: 22px;
+  }
+}
